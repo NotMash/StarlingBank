@@ -1,0 +1,148 @@
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: transparent;
+}
+
+.dashboard {
+  width: 100%;
+  max-width: 900px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 32px;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 24px;
+}
+
+.account-list {
+  margin-bottom: 32px;
+}
+
+.account-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-radius: 6px;
+  background-color: #f1f5f9;
+  margin-bottom: 12px;
+}
+
+.account-details {
+  flex-grow: 1;
+}
+
+.account-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.account-type {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.account-balance-total {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(78, 70, 220);
+}
+
+.account-balance-details {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.account-balance-cleared,
+.account-balance-pending {
+  margin-right: 12px;
+}
+
+.round-up-section {
+  margin-bottom: 32px;
+}
+
+
+
+
+
+.round-up-message {
+  margin-top: 8px;
+  color: rgb(78, 70, 220);
+}
+
+.transaction-list {
+  border-radius: 6px;
+  background-color: #f1f5f9;
+  padding: 16px;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.transaction-table th {
+  font-size: 14px;
+  font-weight: 600;
+  color: #475569;
+}
+
+.transaction-table td {
+  font-size: 14px;
+}
+
+.transaction-direction {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.transaction-direction.in {
+  background-color: #dcfce7;
+  color: #16a34a;
+}
+
+.transaction-direction.out {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+.no-transactions {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.refresh-button {
+  display: block;
+  margin: 16px auto 0;
+  padding: 8px 16px;
+  background-color: rgb(78, 70, 220);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.refresh-button:hover {
+  background-color: #1d4ed8;
+}

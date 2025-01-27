@@ -1,0 +1,52 @@
+.identity-container {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 1000;
+}
+
+.identity-toggle {
+
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.identity-toggle img {
+
+  border-radius: 50%;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.identity-toggle:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.identity-section {
+  margin-top: 8px;
+  padding: 16px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-size: 14px;
+  color: #475569;
+}
+
+.identity-details p {
+  margin: 4px 0;
+}
+
+.identity-details strong {
+  color: #1e293b;
+}
+
+.error-message {
+  color: #dc2626;
+  font-size: 14px;
+  font-weight: bold;
+}

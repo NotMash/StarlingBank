@@ -1,0 +1,119 @@
+.transaction-list {
+  border-radius: 6px;
+  background-color: #f1f5f9;
+  padding: 16px;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.transaction-table th {
+  font-size: 14px;
+  font-weight: 600;
+  color: #475569;
+}
+
+.transaction-table td {
+  font-size: 14px;
+}
+
+.transaction-direction {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.transaction-direction.in {
+  background-color: #dcfce7;
+  color: #16a34a;
+}
+
+.transaction-direction.out {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+.no-transactions {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.refresh-button {
+  display: block;
+  margin: 16px auto 0;
+  padding: 8px 16px;
+  background-color: rgb(78, 70, 220);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.refresh-button:hover {
+  background-color: #1d4ed8;
+}
+
+.transaction-filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.search-input, .direction-filter {
+    padding: 8px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+}
+
+.search-input {
+    flex-grow: 1;
+    margin-right: 16px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    gap: 16px;
+}
+
+.pagination button {
+    padding: 8px 16px;
+    background-color: rgb(78, 70, 220);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #a8a8a8;
+    cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+}
+
+.pagination button:active:not(:disabled) {
+    transform: scale(0.95);
+}
+
+.pagination button:disabled {
+    background-color: #a8a8a8;
+    cursor: not-allowed;
+}

@@ -1,0 +1,44 @@
+.account-list {
+  margin-bottom: 32px;
+}
+
+.account-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-radius: 6px;
+  background-color: #f1f5f9;
+  margin-bottom: 12px;
+}
+
+.account-details {
+  flex-grow: 1;
+}
+
+.account-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.account-type {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.account-balance-total {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(78, 70, 220);
+}
+
+.account-balance-details {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.account-balance-cleared,
+.account-balance-pending {
+  margin-right: 12px;
+}
