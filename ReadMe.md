@@ -49,6 +49,13 @@ The main dashboard component is `Dashboard`. It integrates the different section
 #### Services
 `api.js`: Contains functions to interact with the backend API
 
+## Configuration
+
+### Important Setup
+Before running the application, you must configure your Starling API token:
+1. Navigate to `src/main/resources/application.properties`
+2. Insert your Starling API token in this file
+   
 ## Running the Project
 
 ### Backend
