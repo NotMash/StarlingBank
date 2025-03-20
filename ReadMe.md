@@ -4,6 +4,7 @@
 <img width="1439" alt="Screenshot 2025-03-20 at 14 31 04" src="https://github.com/user-attachments/assets/024fbd5f-169b-4c98-a1aa-cac5e3ef9c09" />
 
 ## Overview
+Note: I have removed some functionality for the saving goal to prevent cheating for future applicants for this tech test.
 
 Despite facing a personal setback with an ankle injury during the development period, the project was completed on schedule.
 
