@@ -6,7 +6,7 @@
 ## Overview
 Note: I have removed some functionality for the saving goal to prevent cheating for future applicants for this tech test.
 
-Despite facing a personal setback with an ankle injury during the development period, the project was completed on schedule.
+Despite facing a personal setback with an ankle surgery and also fasciotomy during the development period, the project was completed on schedule.
 
 This project implements a "round-up" feature for Starling customers using the public developer API. The feature takes all the transactions in a given week, rounds them up to the nearest pound, and transfers the rounded-up amount into a savings goal. This helps customers save for future adventures.
 
